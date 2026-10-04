@@ -12,10 +12,12 @@
       rgba(46, 47, 66, 0.7) 0%,
       rgba(46, 47, 66, 0.7) 100%
     ),
-    url("../images/hero-bg.jpg");
+    image-set("../images/hero-bg_mob.png" 1x, "../images/hero-bg_mob@2x.png" 2x);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
+  padding: 72px;
 }
 
 .hero-title {
@@ -23,8 +25,8 @@
   margin: 0 auto;
 
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11111;
   text-align: center;
   color: #fff;
 
@@ -38,4 +40,41 @@
 
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%
+      ),
+      image-set(
+        "../images/hero-bg_tab.png" 1x,
+        "../images/hero-bg_tab@2x.png" 2x
+      );
+    padding: 112px;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero {
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%
+      ),
+      image-set(
+        "../images/hero-bg_desk.png" 1x,
+        "../images/hero-bg_desk@2x.png" 2x
+      );
+
+    padding: 188px;
+  }
 }
