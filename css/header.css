@@ -8,7 +8,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  padding: 16px;
+  padding: 0px 16px;
 }
 
 .header .container {
@@ -26,7 +26,7 @@
 @media only screen and (min-width: 1158px) {
   .main-nav {
     margin-right: auto;
-    margin-left: 120px;
+    margin-left: 76px;
   }
 }
 
@@ -74,7 +74,7 @@
   gap: 40px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1158px) {
+@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
   .contacts-list {
     gap: 12px;
     flex-direction: column;
@@ -99,6 +99,7 @@
 @media only screen and (max-width: 767.98px) {
   .main-nav {
     display: none;
+    margin-left: 120px;
   }
   .contacts {
     display: none;

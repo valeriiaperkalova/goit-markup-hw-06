@@ -127,11 +127,9 @@
   .footer-caption {
     text-align: left;
   }
-  .footer {
-    padding: 96px 108px;
-  }
 
   .footer .container {
+    width: 584px;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -140,7 +138,7 @@
 
   .footer-form {
     flex-direction: row;
-    gap: 16px;
+    gap: 24px;
   }
   .footer-form-input {
     width: 264px;
@@ -158,6 +156,7 @@
     margin-left: auto;
   }
   .footer .container {
+    width: 1158px;
     column-gap: 0;
     justify-content: start;
   }
