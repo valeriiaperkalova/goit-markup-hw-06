@@ -54,7 +54,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-form-input {
   border: 1px solid #fff;
@@ -128,7 +128,7 @@
     text-align: left;
   }
   .footer {
-    padding: 96px 108;
+    padding: 96px 108px;
   }
 
   .footer .container {
@@ -140,6 +140,7 @@
 
   .footer-form {
     flex-direction: row;
+    gap: 16px;
   }
   .footer-form-input {
     width: 264px;
@@ -155,5 +156,9 @@
   }
   .footer-right {
     margin-left: auto;
+  }
+  .footer .container {
+    column-gap: 0;
+    justify-content: start;
   }
 }

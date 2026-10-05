@@ -36,7 +36,7 @@
   max-height: 619px;
   width: 100%;
   border-radius: 4px;
-  padding: 72px 24px 24px;
+  padding: 72px 16px 16px;
 
   box-shadow:
     0 1px 1px 0 rgba(0, 0, 0, 0.14),
@@ -257,5 +257,6 @@
   .modal {
     max-width: 408px;
     max-height: 582px;
+    padding: 72px 24px 24px;
   }
 }

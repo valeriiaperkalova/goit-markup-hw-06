@@ -6,6 +6,9 @@ body {
   color: #434455;
   background-color: #fff;
 }
+.hide {
+  display: none;
+}
 
 h1,
 h2,
