@@ -76,10 +76,6 @@
   justify-content: space-between;
 }
 
-.mobile-menu-link.active {
-  color: #404bbf;
-}
-
 .mobile-menu-list {
   display: flex;
   flex-direction: column;
@@ -92,8 +88,8 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.active-link {
-  color: ;#4d5ae5;
+.mobile-menu-link.active-link {
+  color: #4d5ae5;
 }
 .mobile-menu-item {
 }

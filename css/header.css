@@ -8,7 +8,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  padding: 0px 16px;
+
+  padding: 16px 0;
 }
 
 .header .container {
@@ -22,11 +23,10 @@
   display: flex;
   margin-left: 76px;
 }
-
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 768px) {
   .main-nav {
     margin-right: auto;
-    margin-left: 76px;
+    margin-left: 0;
   }
 }
 
@@ -75,6 +75,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1157.98px) {
+  .logo {
+    padding: 24px 0;
+    margin-right: 120px;
+  }
   .contacts-list {
     gap: 12px;
     flex-direction: column;
@@ -99,7 +103,6 @@
 @media only screen and (max-width: 767.98px) {
   .main-nav {
     display: none;
-    margin-left: 120px;
   }
   .contacts {
     display: none;
