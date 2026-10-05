@@ -88,7 +88,7 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.mobile-menu-link.active-link {
+.mobile-menu .contacts-link[href^="tel:"] {
   color: #4d5ae5;
 }
 .mobile-menu-item {
